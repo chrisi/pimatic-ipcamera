@@ -3,7 +3,7 @@
     "description": "Tools to see IP Camera",
     "author": "Reski Rukmantiyo (funky81 <ayah@keluargareski.net>)",
     "license": "MIT",
-    "main": "ip-camera",
+    "main": "ipcamera",
     "files": [
         "base.coffee",
         "ip-camera.coffee",
@@ -23,19 +23,19 @@
         "surveillance",
         "mjpg"
     ],
-    "version": "1.2.0",
-    "homepage": "http://github.com/funky81/pimatic-ip-camera",
+    "version": "1.2.1",
+    "homepage": "http://github.com/chrisi/pimatic-ipcamera",
     "private": false,
     "repository": {
         "type": "git",
-        "url": "git://github.com/funky81/pimatic-ip-camera.git"
+        "url": "git://github.com/chrisi/pimatic-ipcamera.git"
     },
     "configSchema": "ip-camera-config-schema.coffee",
     "dependencies": {
         "mjpeg-camera": "^1.5.8"
     },
     "peerDependencies": {
-        "pimatic": "0.8.*"
+        "pimatic": ">=0.8.0"
     },
     "engines": {
         "node": ">0.8.x",
